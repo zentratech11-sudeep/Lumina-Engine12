@@ -1,0 +1,115 @@
+{
+  "home": {
+    "sections": [
+      "hero",
+      "intro",
+      "featured",
+      "collection",
+      "story",
+      "cta"
+    ],
+    "hero": {
+      "eyebrow": "Parfums for the evening",
+      "heading": "Three parfums, made for after dark.",
+      "action": {
+        "label": "Discover the parfums",
+        "href": "/products"
+      },
+      "media": {
+        "type": "video",
+        "src": "/brands/solenne/videos/hero.mp4",
+        "poster": "/brands/solenne/images/backgrounds/hero-poster.webp"
+      }
+    },
+    "intro": {
+      "heading": "Three parfums for after dark.",
+      "body": "Solenne is a demo brand. Every word, color and font on this page comes from /brands/solenne."
+    },
+    "featured": {
+      "heading": "The parfums"
+    },
+    "story": {
+      "heading": "Same engine, different house",
+      "paragraphs": [
+        "No component was edited to make this brand. Swap NEXT_PUBLIC_BRAND back to lumina to see the reference brand."
+      ]
+    },
+    "gallery": {
+      "heading": "Gallery",
+      "limit": 4
+    },
+    "reviews": {
+      "heading": "Reviews",
+      "limit": 3
+    },
+    "cta": {
+      "heading": "Write to us",
+      "body": "Ask about samples and private appointments.",
+      "action": {
+        "label": "Contact Solenne",
+        "href": "/contact"
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Solenne",
+      "intro": "A demo parfum house."
+    },
+    "products": {
+      "title": "Parfums",
+      "intro": "The full Solenne range."
+    },
+    "exclusive": {
+      "title": "The Evening Edit",
+      "intro": "Three pieces, one at a time."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "intro": "Coming soon."
+    },
+    "reviews": {
+      "title": "Reviews",
+      "intro": "Coming soon."
+    },
+    "blog": {
+      "title": "Journal",
+      "intro": "Coming soon."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Samples, appointments and press."
+    }
+  },
+  "footer": {
+    "note": "A demo brand for the engine."
+  },
+  "productPage": {
+    "enquiryLabel": "Ask about this parfum",
+    "collectionLabel": "See it in The Evening Edit",
+    "relatedHeading": "Other parfums"
+  },
+  "contactForm": {
+    "topics": [
+      "Samples",
+      "Private appointment",
+      "Press"
+    ],
+    "productTopic": "Samples",
+    "successHeading": "Merci.",
+    "successBody": "We will write back soon.",
+    "privacyNote": "Your details are used only to answer you."
+  },
+  "cart": {
+    "title": "Votre sac",
+    "empty": "Your bag is empty.",
+    "addLabel": "Add to bag",
+    "addedLabel": "Added",
+    "checkoutLabel": "Request these parfums",
+    "note": "Checkout opens soon. Send your selection and we will confirm by email."
+  },
+  "reviewsPage": {
+    "sampleLabel": "Sample review",
+    "averageLabel": "Average rating"
+  }
+}

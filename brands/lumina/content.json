@@ -1,0 +1,119 @@
+{
+  "home": {
+    "sections": [
+      "hero",
+      "intro",
+      "featured",
+      "collection",
+      "story",
+      "gallery",
+      "reviews",
+      "cta"
+    ],
+    "hero": {
+      "eyebrow": "Luxury Beyond Beauty",
+      "heading": "Skincare, fragrance and haircare, finished in black glass.",
+      "action": {
+        "label": "Explore the collection",
+        "href": "/exclusive"
+      },
+      "media": {
+        "type": "image",
+        "src": "/brands/lumina/images/backgrounds/hero.webp",
+        "alt": ""
+      }
+    },
+    "intro": {
+      "heading": "Made slowly, finished in black glass.",
+      "body": "LUMINA formulas are mixed in small batches and bottled in heavy black glass that keeps light away from the ingredients."
+    },
+    "featured": {
+      "heading": "From the collection"
+    },
+    "story": {
+      "heading": "Why black glass",
+      "paragraphs": [
+        "Light breaks down active ingredients. Clear and frosted bottles look soft on a shelf, but they let the formula fade before the bottle is empty.",
+        "Black glass is heavier to ship and harder to make. It keeps every product as fresh on the last day as on the first."
+      ]
+    },
+    "gallery": {
+      "heading": "In the studio",
+      "limit": 4
+    },
+    "reviews": {
+      "heading": "After a full bottle",
+      "limit": 3
+    },
+    "cta": {
+      "heading": "Visit the studio",
+      "body": "Book a private consultation and try the full collection before you buy.",
+      "action": {
+        "label": "Book a consultation",
+        "href": "/contact"
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About LUMINA",
+      "intro": "A small studio making skincare, fragrance and haircare in black glass."
+    },
+    "products": {
+      "title": "Products",
+      "intro": "Every LUMINA product, from overnight cream to parfum."
+    },
+    "exclusive": {
+      "title": "Exclusive Collection",
+      "intro": "Six pieces, presented one at a time."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "intro": "The collection in the studio and on location."
+    },
+    "reviews": {
+      "title": "Reviews",
+      "intro": "What customers say after a full bottle."
+    },
+    "blog": {
+      "title": "Journal",
+      "intro": "Notes on ingredients, rituals and how the collection is made."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Questions, consultations and wholesale enquiries."
+    }
+  },
+  "footer": {
+    "note": "Made in small batches."
+  },
+  "productPage": {
+    "enquiryLabel": "Ask about this product",
+    "collectionLabel": "See it in the Exclusive Collection",
+    "relatedHeading": "More from LUMINA"
+  },
+  "contactForm": {
+    "topics": [
+      "General question",
+      "Product question",
+      "Private consultation",
+      "Wholesale or press"
+    ],
+    "productTopic": "Product question",
+    "successHeading": "Thank you.",
+    "successBody": "Your message is with us. We reply within two working days.",
+    "privacyNote": "We only use your details to reply to this message."
+  },
+  "cart": {
+    "title": "Your bag",
+    "empty": "Your bag is empty.",
+    "addLabel": "Add to bag",
+    "addedLabel": "Added to bag",
+    "checkoutLabel": "Send an enquiry",
+    "note": "Online checkout isn't open yet. Send your bag as an enquiry and we'll reply with availability and prices."
+  },
+  "reviewsPage": {
+    "sampleLabel": "Sample review",
+    "averageLabel": "Average rating"
+  }
+}

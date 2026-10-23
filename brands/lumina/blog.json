@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "why-black-glass",
+    "title": "Why every LUMINA product comes in black glass",
+    "excerpt": "Light breaks down active ingredients. Here is what black glass does about it, and why it costs more.",
+    "date": "2026-09-02",
+    "author": "LUMINA Studio",
+    "cover": {
+      "src": "/brands/lumina/images/gallery/horizon.webp",
+      "alt": "LUMINA products on dark water under a starry sky"
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Sample article. Replace this text with your own. Clear and frosted bottles look soft on a shelf, but they let light reach the formula every time the bottle is out."
+      },
+      {
+        "type": "heading",
+        "text": "What light does to a formula"
+      },
+      {
+        "type": "paragraph",
+        "text": "Many active ingredients are sensitive to ultraviolet and visible light. Over weeks of use, that exposure can change colour, scent and how well a product works."
+      },
+      {
+        "type": "quote",
+        "text": "The last pump should be as good as the first.",
+        "cite": "LUMINA Studio"
+      },
+      {
+        "type": "heading",
+        "text": "The trade-off"
+      },
+      {
+        "type": "paragraph",
+        "text": "Black glass is heavier to ship and harder to make. We think the trade is worth it."
+      }
+    ]
+  },
+  {
+    "slug": "evening-routine",
+    "title": "A three-step evening routine",
+    "excerpt": "Cleanse, renew and scent: how the Night Ritual collection fits into ten minutes before bed.",
+    "date": "2026-08-19",
+    "author": "LUMINA Studio",
+    "cover": {
+      "src": "/brands/lumina/images/gallery/trio.webp",
+      "alt": "Three LUMINA products on dark water"
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Sample article. Replace this text with your own. A routine you will keep is better than a long one you will skip."
+      },
+      {
+        "type": "heading",
+        "text": "1. Cleanse"
+      },
+      {
+        "type": "paragraph",
+        "text": "Massage the Moisturizing Cleanser onto dry skin, then rinse with warm water."
+      },
+      {
+        "type": "heading",
+        "text": "2. Renew"
+      },
+      {
+        "type": "paragraph",
+        "text": "Warm a small amount of Luxe Renewal Cream between your fingers and press it in."
+      },
+      {
+        "type": "image",
+        "src": "/brands/lumina/images/gallery/luxe-renewal-cream.webp",
+        "alt": "Luxe Renewal Cream jar",
+        "caption": "Luxe Renewal Cream",
+        "width": 800,
+        "height": 1000
+      },
+      {
+        "type": "heading",
+        "text": "3. Scent"
+      },
+      {
+        "type": "paragraph",
+        "text": "One spray of Noir Absolu on the wrist, away from freshly treated skin."
+      }
+    ]
+  },
+  {
+    "slug": "how-we-photograph-the-collection",
+    "title": "Behind the Exclusive Collection set",
+    "excerpt": "Water, starlight and one low light on the horizon: the idea behind the Exclusive Collection imagery.",
+    "date": "2026-07-21",
+    "author": "LUMINA Studio",
+    "cover": {
+      "src": "/brands/lumina/images/gallery/group.webp",
+      "alt": "Three LUMINA products grouped on dark water"
+    },
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Sample article. Replace this text with your own. The set is built around one idea: black glass looks best against something darker than itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "A single low light sits on the horizon, so every bottle gets a thin bright edge and a long reflection on the water."
+      }
+    ]
+  }
+]

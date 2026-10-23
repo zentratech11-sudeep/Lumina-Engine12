@@ -1,0 +1,248 @@
+// Database blueprint for the future CMS / e-commerce phase (TRD §33).
+// Not used by the site yet: brand data currently lives in /brands/<slug>/*.json.
+// See prisma/README.md before adopting it.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Brand {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  tagline     String
+  description String
+  logo        Json // { type: "wordmark", text } | { type: "image", src, alt, width, height }
+  theme       Json // primary, secondary, accent, background, surface, text, mutedText, border, glow, error
+  typography  Json
+  scene       Json // camera, sky, glow, stars, water, lighting, products, effects
+  content     Json // page copy, home sections, hero, cart and form wording
+  navigation  Json
+  social      Json
+  seo         Json
+  features    Json
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  products        Product[]
+  collections     Collection[]
+  galleryItems    GalleryItem[]
+  reviews         Review[]
+  blogPosts       BlogPost[]
+  customers       Customer[]
+  orders          Order[]
+  contactMessages ContactMessage[]
+  settings        SiteSetting[]
+}
+
+model Product {
+  id               String   @id @default(cuid())
+  brandId          String
+  slug             String
+  name             String
+  description      String
+  category         String
+  details          Json     @default("[]") // [{ label, value }]
+  image            String?
+  imageAlt         String?
+  model3D          String?
+  modelScale       Float    @default(1)
+  sceneImage       String?
+  placeholderShape String   @default("bottle")
+  price            Decimal? @db.Decimal(10, 2)
+  currency         String?  @db.Char(3)
+  featured         Boolean  @default(false)
+  stock            Int? // null = not tracked
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  brand        Brand               @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  stagings     CollectionProduct[]
+  galleryItems GalleryItem[]
+  reviews      Review[]
+  orderItems   OrderItem[]
+
+  @@unique([brandId, slug])
+}
+
+model Collection {
+  id          String   @id @default(cuid())
+  brandId     String
+  key         String // stable id used in URLs and analytics
+  title       String
+  subtitle    String?
+  description String?
+  transition  String   @default("rise") // rise | drift | fade
+  environment Json?
+  position    Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  brand  Brand             @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  slides CollectionSlide[]
+
+  @@unique([brandId, key])
+}
+
+/// One step of the collection counter (01 / 06).
+model CollectionSlide {
+  id                String  @id @default(cuid())
+  collectionId      String
+  featuredProductId String
+  position          Int
+  environment       Json?
+
+  collection Collection          @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  stage      CollectionProduct[]
+}
+
+/// A product standing on the water during a slide.
+model CollectionProduct {
+  id        String @id @default(cuid())
+  slideId   String
+  productId String
+  positionX Float
+  positionY Float  @default(0)
+  positionZ Float
+  rotationX Float  @default(0)
+  rotationY Float  @default(0)
+  rotationZ Float  @default(0)
+  scale     Float  @default(1)
+  opacity   Float  @default(1)
+
+  slide   CollectionSlide @relation(fields: [slideId], references: [id], onDelete: Cascade)
+  product Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model GalleryItem {
+  id        String  @id @default(cuid())
+  brandId   String
+  src       String
+  alt       String
+  caption   String?
+  width     Int
+  height    Int
+  productId String?
+  position  Int     @default(0)
+
+  brand   Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  product Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  brandId   String
+  productId String?
+  author    String
+  rating    Int // 1–5, enforce in the API with Zod
+  title     String?
+  body      String
+  date      DateTime
+  sample    Boolean  @default(false)
+  approved  Boolean  @default(false) // moderation before publishing
+  createdAt DateTime @default(now())
+
+  brand   Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  product Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+}
+
+model BlogPost {
+  id          String    @id @default(cuid())
+  brandId     String
+  slug        String
+  title       String
+  excerpt     String
+  author      String
+  cover       Json? // { src, alt }
+  body        Json // [{ type: "paragraph" | "heading" | "quote" | "image", ... }]
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@unique([brandId, slug])
+}
+
+model Customer {
+  id        String   @id @default(cuid())
+  brandId   String
+  email     String
+  name      String?
+  phone     String?
+  createdAt DateTime @default(now())
+
+  brand  Brand   @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  orders Order[]
+
+  @@unique([brandId, email])
+}
+
+enum OrderStatus {
+  REQUESTED // bag sent as an enquiry (current behaviour)
+  PENDING_PAYMENT
+  PAID
+  FULFILLED
+  CANCELLED
+  REFUNDED
+}
+
+model Order {
+  id         String      @id @default(cuid())
+  brandId    String
+  customerId String?
+  status     OrderStatus @default(REQUESTED)
+  currency   String?     @db.Char(3)
+  subtotal   Decimal?    @db.Decimal(10, 2)
+  note       String?
+  paymentRef String? // provider reference only; never store card data
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  brand    Brand       @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  customer Customer?   @relation(fields: [customerId], references: [id], onDelete: SetNull)
+  items    OrderItem[]
+}
+
+model OrderItem {
+  id        String   @id @default(cuid())
+  orderId   String
+  productId String
+  name      String // snapshot at order time
+  unitPrice Decimal? @db.Decimal(10, 2)
+  quantity  Int
+
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  brandId   String
+  name      String
+  email     String
+  phone     String?
+  topic     String
+  product   String?
+  message   String
+  bag       Json? // [{ slug, quantity }]
+  createdAt DateTime @default(now())
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+}
+
+model SiteSetting {
+  id      String @id @default(cuid())
+  brandId String
+  key     String
+  value   Json
+
+  brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+
+  @@unique([brandId, key])
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "solenne",
+  "name": "Solenne",
+  "tagline": "Parfums for the evening",
+  "description": "A demo brand that proves the engine can be re-skinned with data alone.",
+  "logo": {
+    "type": "wordmark",
+    "text": "Solenne"
+  },
+  "theme": {
+    "primary": "#d8c3a0",
+    "secondary": "#a48a6e",
+    "accent": "#f1e3cb",
+    "background": "#0c0709",
+    "surface": "#170e11",
+    "text": "#f4ece2",
+    "mutedText": "#b8a594",
+    "border": "#3a2a2c",
+    "glow": "#c9a27f"
+  },
+  "typography": {
+    "display": {
+      "family": "Bodoni Moda",
+      "fallback": "Didot, 'Bodoni 72', Georgia, serif",
+      "files": [
+        {
+          "src": "/fonts/bodoni-moda-latin-400-normal.woff2",
+          "weight": 400
+        },
+        {
+          "src": "/fonts/bodoni-moda-latin-500-normal.woff2",
+          "weight": 500
+        }
+      ]
+    },
+    "ui": {
+      "family": "Jost",
+      "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "files": [
+        {
+          "src": "/fonts/jost-latin-300-normal.woff2",
+          "weight": 300
+        },
+        {
+          "src": "/fonts/jost-latin-400-normal.woff2",
+          "weight": 400
+        },
+        {
+          "src": "/fonts/jost-latin-500-normal.woff2",
+          "weight": 500
+        }
+      ]
+    }
+  },
+  "contact": {
+    "email": "bonsoir@solenne.example"
+  },
+  "social": [
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/"
+    }
+  ],
+  "seo": {
+    "defaultTitle": "Solenne — Parfums for the evening",
+    "titleTemplate": "%s | Solenne",
+    "description": "Solenne is a demo parfum house built on the same engine as LUMINA."
+  },
+  "features": {
+    "sound": false,
+    "cart": true
+  }
+}

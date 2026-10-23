@@ -1,0 +1,104 @@
+[
+  {
+    "id": "luxe-renewal-cream",
+    "name": "Luxe Renewal Cream",
+    "slug": "luxe-renewal-cream",
+    "description": "A rich overnight cream that restores moisture while you sleep.",
+    "category": "Skincare",
+    "details": [
+      {
+        "label": "Size",
+        "value": "50 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/luxe-renewal-cream.webp",
+    "imageAlt": "Placeholder render of Luxe Renewal Cream standing on dark water",
+    "placeholderShape": "jar",
+    "featured": true
+  },
+  {
+    "id": "noir-absolu",
+    "name": "Noir Absolu Parfum",
+    "slug": "noir-absolu",
+    "description": "Smoked vetiver, black pepper and iris, built to last from morning to night.",
+    "category": "Fragrance",
+    "details": [
+      {
+        "label": "Size",
+        "value": "100 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/noir-absolu.webp",
+    "imageAlt": "Placeholder render of Noir Absolu Parfum standing on dark water",
+    "placeholderShape": "flacon",
+    "featured": true
+  },
+  {
+    "id": "radiance-perfection-foundation",
+    "name": "Radiance Perfection Foundation",
+    "slug": "radiance-perfection-foundation",
+    "description": "A weightless foundation with a soft-focus finish in twenty shades.",
+    "category": "Makeup",
+    "details": [
+      {
+        "label": "Size",
+        "value": "30 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/radiance-perfection-foundation.webp",
+    "imageAlt": "Placeholder render of Radiance Perfection Foundation standing on dark water",
+    "placeholderShape": "slim",
+    "featured": true
+  },
+  {
+    "id": "moisturizing-cleanser",
+    "name": "Moisturizing Cleanser",
+    "slug": "moisturizing-cleanser",
+    "description": "A cream cleanser that lifts makeup without stripping the skin.",
+    "category": "Skincare",
+    "details": [
+      {
+        "label": "Size",
+        "value": "150 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/moisturizing-cleanser.webp",
+    "imageAlt": "Placeholder render of Moisturizing Cleanser standing on dark water",
+    "placeholderShape": "tube",
+    "featured": false
+  },
+  {
+    "id": "lumina-glow-shine",
+    "name": "Lumina Glow Shine",
+    "slug": "lumina-glow-shine",
+    "description": "A light body oil that leaves a satin sheen.",
+    "category": "Body",
+    "details": [
+      {
+        "label": "Size",
+        "value": "200 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/lumina-glow-shine.webp",
+    "imageAlt": "Placeholder render of Lumina Glow Shine standing on dark water",
+    "placeholderShape": "pump",
+    "featured": false
+  },
+  {
+    "id": "antioxidant-shampoo",
+    "name": "Antioxidant Shampoo",
+    "slug": "antioxidant-shampoo",
+    "description": "A gentle daily shampoo with green tea and vitamin E.",
+    "category": "Haircare",
+    "details": [
+      {
+        "label": "Size",
+        "value": "300 ml"
+      }
+    ],
+    "image": "/brands/lumina/images/products/antioxidant-shampoo.webp",
+    "imageAlt": "Placeholder render of Antioxidant Shampoo standing on dark water",
+    "placeholderShape": "bottle",
+    "featured": false
+  }
+]

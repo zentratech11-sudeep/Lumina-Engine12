@@ -1,0 +1,346 @@
+[
+  {
+    "id": "exclusive",
+    "title": "Exclusive Collection",
+    "slides": [
+      {
+        "id": "s1",
+        "featuredProductId": "luxe-renewal-cream",
+        "stage": [
+          {
+            "productId": "luxe-renewal-cream",
+            "position": [
+              -1.35,
+              0,
+              1.0
+            ],
+            "rotation": [
+              0,
+              0.35,
+              0
+            ],
+            "scale": 1.15
+          },
+          {
+            "productId": "noir-absolu",
+            "position": [
+              2.3,
+              0,
+              -3.2
+            ],
+            "rotation": [
+              0,
+              -0.3,
+              0
+            ],
+            "scale": 0.9
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "featuredProductId": "noir-absolu",
+        "stage": [
+          {
+            "productId": "noir-absolu",
+            "position": [
+              1.45,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              -0.25,
+              0
+            ],
+            "scale": 0.95
+          },
+          {
+            "productId": "radiance-perfection-foundation",
+            "position": [
+              -2.1,
+              0,
+              -2.4
+            ],
+            "scale": 0.95
+          }
+        ],
+        "environment": {
+          "glowColor": "#a7b4c6"
+        }
+      },
+      {
+        "id": "s3",
+        "featuredProductId": "radiance-perfection-foundation",
+        "stage": [
+          {
+            "productId": "radiance-perfection-foundation",
+            "position": [
+              -1.45,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              0.2,
+              0
+            ],
+            "scale": 1.15
+          },
+          {
+            "productId": "moisturizing-cleanser",
+            "position": [
+              2.4,
+              0,
+              -2.6
+            ],
+            "rotation": [
+              0,
+              -0.4,
+              0
+            ],
+            "scale": 0.95
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "featuredProductId": "moisturizing-cleanser",
+        "stage": [
+          {
+            "productId": "moisturizing-cleanser",
+            "position": [
+              1.5,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              -0.3,
+              0
+            ],
+            "scale": 1.15
+          },
+          {
+            "productId": "lumina-glow-shine",
+            "position": [
+              -2.2,
+              0,
+              -2.5
+            ],
+            "rotation": [
+              0,
+              0.3,
+              0
+            ],
+            "scale": 0.9
+          }
+        ],
+        "environment": {
+          "glowColor": "#9db8b0"
+        }
+      },
+      {
+        "id": "s5",
+        "featuredProductId": "lumina-glow-shine",
+        "stage": [
+          {
+            "productId": "lumina-glow-shine",
+            "position": [
+              -1.4,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              0.3,
+              0
+            ],
+            "scale": 1.1
+          },
+          {
+            "productId": "luxe-renewal-cream",
+            "position": [
+              -0.2,
+              0,
+              -2.8
+            ],
+            "rotation": [
+              0,
+              0.2,
+              0
+            ],
+            "scale": 0.75
+          },
+          {
+            "productId": "antioxidant-shampoo",
+            "position": [
+              2.5,
+              0,
+              -1.9
+            ],
+            "rotation": [
+              0,
+              -0.3,
+              0
+            ],
+            "scale": 0.9
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "featuredProductId": "antioxidant-shampoo",
+        "stage": [
+          {
+            "productId": "antioxidant-shampoo",
+            "position": [
+              1.45,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              -0.25,
+              0
+            ],
+            "scale": 1.1
+          },
+          {
+            "productId": "luxe-renewal-cream",
+            "position": [
+              -2.3,
+              0,
+              -2.2
+            ],
+            "rotation": [
+              0,
+              0.4,
+              0
+            ],
+            "scale": 0.85
+          }
+        ],
+        "environment": {
+          "glowColor": "#b2bcc0",
+          "glowIntensity": 1.05
+        }
+      }
+    ],
+    "description": "Six pieces from the LUMINA range, presented one at a time.",
+    "transition": "rise",
+    "environment": {
+      "glowColor": "#9fb6ba",
+      "glowIntensity": 0.9
+    }
+  },
+  {
+    "id": "night-ritual",
+    "title": "Night Ritual",
+    "subtitle": "Three steps before sleep",
+    "description": "Cleanse, renew and scent: the evening routine in three pieces.",
+    "transition": "drift",
+    "environment": {
+      "glowColor": "#8a9cc0",
+      "glowIntensity": 0.8,
+      "horizonColor": "#1c2433"
+    },
+    "slides": [
+      {
+        "id": "n1",
+        "featuredProductId": "moisturizing-cleanser",
+        "stage": [
+          {
+            "productId": "moisturizing-cleanser",
+            "position": [
+              -1.2,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              0.3,
+              0
+            ],
+            "scale": 1.15
+          },
+          {
+            "productId": "luxe-renewal-cream",
+            "position": [
+              2.2,
+              0,
+              -2.6
+            ],
+            "scale": 0.85,
+            "opacity": 0.55
+          }
+        ]
+      },
+      {
+        "id": "n2",
+        "featuredProductId": "luxe-renewal-cream",
+        "stage": [
+          {
+            "productId": "luxe-renewal-cream",
+            "position": [
+              1.3,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              -0.3,
+              0
+            ],
+            "scale": 1.15
+          },
+          {
+            "productId": "noir-absolu",
+            "position": [
+              -2.3,
+              0,
+              -2.4
+            ],
+            "rotation": [
+              0,
+              0.3,
+              0
+            ],
+            "scale": 0.85,
+            "opacity": 0.55
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "featuredProductId": "noir-absolu",
+        "stage": [
+          {
+            "productId": "noir-absolu",
+            "position": [
+              -1.3,
+              0,
+              0.9
+            ],
+            "rotation": [
+              0,
+              0.25,
+              0
+            ],
+            "scale": 0.95
+          },
+          {
+            "productId": "moisturizing-cleanser",
+            "position": [
+              2.3,
+              0,
+              -2.6
+            ],
+            "scale": 0.85,
+            "opacity": 0.55
+          }
+        ]
+      }
+    ]
+  }
+]

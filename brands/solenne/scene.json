@@ -1,0 +1,74 @@
+{
+  "poster": "/brands/solenne/images/backgrounds/scene-poster.webp",
+  "camera": {
+    "position": [
+      0,
+      1.4,
+      7.6
+    ],
+    "target": [
+      0,
+      0.7,
+      0
+    ],
+    "fov": 32
+  },
+  "fog": {
+    "color": "#3a2224",
+    "near": 6,
+    "far": 22
+  },
+  "sky": {
+    "top": "#070305",
+    "horizon": "#3a2224"
+  },
+  "glow": {
+    "color": "#d2a47e",
+    "intensity": 1.1,
+    "width": 20,
+    "height": 6
+  },
+  "stars": {
+    "count": 500,
+    "mobileCount": 180,
+    "size": 1.3,
+    "opacity": 0.6,
+    "speed": 0.01,
+    "depth": 26,
+    "color": "#f3dcc0"
+  },
+  "water": {
+    "color": "#140b0d",
+    "sheen": "#6e5244",
+    "waveScale": 6,
+    "distortion": 0.5,
+    "waveSpeed": 0.45,
+    "normalMap": "/textures/water/water-normal.webp"
+  },
+  "lighting": {
+    "ambient": 0.3,
+    "key": {
+      "color": "#f3dcc0",
+      "intensity": 2.0,
+      "position": [
+        -3,
+        5,
+        6
+      ]
+    },
+    "rim": {
+      "color": "#d2a47e",
+      "intensity": 3.2,
+      "position": [
+        2,
+        3,
+        -6
+      ]
+    }
+  },
+  "products": {
+    "bodyColor": "#1a0f12",
+    "metalColor": "#d8c3a0",
+    "labelColor": "#f1e3cb"
+  }
+}

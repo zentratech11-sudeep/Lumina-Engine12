@@ -1,0 +1,71 @@
+[
+  {
+    "id": "g-group",
+    "src": "/brands/lumina/images/gallery/group.webp",
+    "alt": "Noir Absolu Parfum, Radiance Perfection Foundation and Luxe Renewal Cream on dark water",
+    "caption": "The fragrance and makeup edit",
+    "width": 1600,
+    "height": 1000
+  },
+  {
+    "id": "g-medallion",
+    "src": "/brands/lumina/images/gallery/medallion.webp",
+    "alt": "Close-up of the silver medallion on the Noir Absolu Parfum bottle",
+    "caption": "The parfum medallion",
+    "width": 800,
+    "height": 1000,
+    "productId": "noir-absolu"
+  },
+  {
+    "id": "g-jar",
+    "src": "/brands/lumina/images/gallery/luxe-renewal-cream.webp",
+    "alt": "Luxe Renewal Cream jar floating on dark water",
+    "caption": "Luxe Renewal Cream",
+    "width": 800,
+    "height": 1000,
+    "productId": "luxe-renewal-cream"
+  },
+  {
+    "id": "g-horizon",
+    "src": "/brands/lumina/images/gallery/horizon.webp",
+    "alt": "Luxe Renewal Cream and Noir Absolu Parfum on still water under a starry sky",
+    "caption": "The Exclusive Collection set",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "g-trio",
+    "src": "/brands/lumina/images/gallery/trio.webp",
+    "alt": "Lumina Glow Shine, Antioxidant Shampoo and Moisturizing Cleanser together on the water",
+    "caption": "Body and hair",
+    "width": 1600,
+    "height": 1000
+  },
+  {
+    "id": "g-foundation",
+    "src": "/brands/lumina/images/gallery/radiance-perfection-foundation.webp",
+    "alt": "Radiance Perfection Foundation bottle on dark water",
+    "caption": "Radiance Perfection Foundation",
+    "width": 800,
+    "height": 1000,
+    "productId": "radiance-perfection-foundation"
+  },
+  {
+    "id": "g-cleanser",
+    "src": "/brands/lumina/images/gallery/moisturizing-cleanser.webp",
+    "alt": "Moisturizing Cleanser tube on dark water",
+    "caption": "Moisturizing Cleanser",
+    "width": 800,
+    "height": 1000,
+    "productId": "moisturizing-cleanser"
+  },
+  {
+    "id": "g-shampoo",
+    "src": "/brands/lumina/images/gallery/antioxidant-shampoo.webp",
+    "alt": "Antioxidant Shampoo bottle on dark water",
+    "caption": "Antioxidant Shampoo",
+    "width": 800,
+    "height": 1000,
+    "productId": "antioxidant-shampoo"
+  }
+]

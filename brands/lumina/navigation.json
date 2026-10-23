@@ -1,0 +1,10 @@
+[
+  { "label": "Home", "href": "/" },
+  { "label": "About", "href": "/about" },
+  { "label": "Products", "href": "/products" },
+  { "label": "Exclusive", "href": "/exclusive" },
+  { "label": "Gallery", "href": "/gallery" },
+  { "label": "Reviews", "href": "/reviews" },
+  { "label": "Blog", "href": "/blog" },
+  { "label": "Contact", "href": "/contact" }
+]

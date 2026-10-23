@@ -1,0 +1,61 @@
+[
+  {
+    "id": "ambre-nuit",
+    "name": "Ambre Nuit",
+    "slug": "ambre-nuit",
+    "description": "Amber, labdanum and smoked tea.",
+    "category": "Parfum",
+    "details": [
+      {
+        "label": "Size",
+        "value": "50 ml"
+      }
+    ],
+    "placeholderShape": "flacon",
+    "featured": true,
+    "price": 145,
+    "currency": "EUR",
+    "image": "/brands/solenne/images/products/ambre-nuit.webp",
+    "imageAlt": "Placeholder render of Ambre Nuit on dark water"
+  },
+  {
+    "id": "rose-cendree",
+    "name": "Rose Cendrée",
+    "slug": "rose-cendree",
+    "description": "Turkish rose over cool ash and musk.",
+    "category": "Parfum",
+    "details": [
+      {
+        "label": "Size",
+        "value": "50 ml"
+      }
+    ],
+    "placeholderShape": "slim",
+    "featured": true,
+    "price": 160,
+    "currency": "EUR",
+    "model3D": "/brands/solenne/models/products/rose-cendree.glb",
+    "modelScale": 1.0,
+    "image": "/brands/solenne/images/products/rose-cendree.webp",
+    "imageAlt": "Placeholder render of Rose Cendrée on dark water"
+  },
+  {
+    "id": "lait-de-figue",
+    "name": "Lait de Figue",
+    "slug": "lait-de-figue",
+    "description": "A fig-milk body cream for the same ritual.",
+    "category": "Body",
+    "details": [
+      {
+        "label": "Size",
+        "value": "200 ml"
+      }
+    ],
+    "placeholderShape": "jar",
+    "featured": true,
+    "price": 68,
+    "currency": "EUR",
+    "image": "/brands/solenne/images/products/lait-de-figue.webp",
+    "imageAlt": "Placeholder render of Lait de Figue on dark water"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "r1",
+    "author": "Sample customer",
+    "rating": 5,
+    "title": "Worth the weight of the jar",
+    "body": "Replace this with a real review. Sample text: my skin felt softer after the first week, and one jar lasted three months.",
+    "productId": "luxe-renewal-cream",
+    "date": "2026-08-14",
+    "sample": true
+  },
+  {
+    "id": "r2",
+    "author": "Sample customer",
+    "rating": 5,
+    "title": "Lasts all day",
+    "body": "Replace this with a real review. Sample text: I put it on in the morning and could still smell it at dinner.",
+    "productId": "noir-absolu",
+    "date": "2026-07-30",
+    "sample": true
+  },
+  {
+    "id": "r3",
+    "author": "Sample customer",
+    "rating": 4,
+    "title": "Light and even",
+    "body": "Replace this with a real review. Sample text: blends easily and doesn't feel heavy. I would like one more shade.",
+    "productId": "radiance-perfection-foundation",
+    "date": "2026-07-02",
+    "sample": true
+  },
+  {
+    "id": "r4",
+    "author": "Sample customer",
+    "rating": 5,
+    "body": "Replace this with a real review. Sample text: gentle enough to use every day, and the bottle looks good in the shower.",
+    "productId": "antioxidant-shampoo",
+    "date": "2026-06-18",
+    "sample": true
+  }
+]

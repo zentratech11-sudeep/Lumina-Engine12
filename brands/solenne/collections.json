@@ -1,0 +1,91 @@
+[
+  {
+    "id": "evening",
+    "title": "The Evening Edit",
+    "slides": [
+      {
+        "id": "e1",
+        "featuredProductId": "ambre-nuit",
+        "stage": [
+          {
+            "productId": "ambre-nuit",
+            "position": [
+              0,
+              0,
+              1.0
+            ],
+            "scale": 1.2
+          },
+          {
+            "productId": "lait-de-figue",
+            "position": [
+              -2.6,
+              0,
+              -2.4
+            ],
+            "rotation": [
+              0,
+              0.4,
+              0
+            ],
+            "scale": 0.8
+          }
+        ]
+      },
+      {
+        "id": "e2",
+        "featuredProductId": "rose-cendree",
+        "stage": [
+          {
+            "productId": "rose-cendree",
+            "position": [
+              0,
+              0,
+              1.0
+            ],
+            "scale": 1.25
+          },
+          {
+            "productId": "ambre-nuit",
+            "position": [
+              2.6,
+              0,
+              -2.4
+            ],
+            "rotation": [
+              0,
+              -0.4,
+              0
+            ],
+            "scale": 0.8
+          }
+        ]
+      },
+      {
+        "id": "e3",
+        "featuredProductId": "lait-de-figue",
+        "stage": [
+          {
+            "productId": "lait-de-figue",
+            "position": [
+              0,
+              0,
+              1.0
+            ],
+            "scale": 1.2
+          },
+          {
+            "productId": "rose-cendree",
+            "position": [
+              -2.4,
+              0,
+              -2.6
+            ],
+            "scale": 0.85
+          }
+        ]
+      }
+    ],
+    "transition": "fade"
+  }
+]
